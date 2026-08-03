@@ -5,6 +5,13 @@ public class ArithmeticOperation {
         System.out.println(x-y);
         System.out.println(x*y);
         System.out.println(x/y);
+
+        double a = 50;
+        double b = 8;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
     }
     
 }
