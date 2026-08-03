@@ -1,6 +1,8 @@
+import java.util.Scanner;
 public class AreaOfCircle {
     public static void main(String[] args) {
-        double r = 5.4;
+        Scanner sc = new Scanner(System.in);
+        double r = sc.nextDouble();
         double a = 3.141592 * r * r;
         System.out.println(a);
     }
