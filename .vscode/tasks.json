@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto Push",
+      "type": "shell",
+      "command": "git add . && git diff --cached --quiet || (git commit -m \"Auto Update\" && git push)",
+      "problemMatcher": []
+    }
+  ]
+}
