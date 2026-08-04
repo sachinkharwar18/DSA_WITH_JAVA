@@ -12,6 +12,14 @@ public class IncrementDecrement {
         System.out.println(x--);
         System.out.println(++x);
         System.out.println(--x);
+
+        int a = 10;
+        int b = a++;
+        System.out.println(a+ "  " +b);
+
+        int c = 12;
+        int d = ++a;
+        System.out.println(c+ "  " +d);
     }
 
 }
