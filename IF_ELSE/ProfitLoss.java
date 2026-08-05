@@ -11,24 +11,24 @@ public class ProfitLoss {
         int SP = sc.nextInt();
 
         if(CP<SP){
-            System.out.println("Profit =" + (SP-CP));
+            System.out.println("Profit = " + (SP-CP));
 
             int Profit = SP-CP;
-       int  ProfitPercentage = (Profit/CP)*100;
-       System.out.println(ProfitPercentage);
+       double ProfitPercentage = (Profit * 100.0) / CP;
+       System.out.println(ProfitPercentage + "%");
         }
         else if(CP>SP){
-            System.out.println("Loss =" + (CP-SP));
+            System.out.println("Loss = " + (CP-SP));
 
 
        int Loss = CP-SP;
-       int  LossPercentage = (Loss/SP)*100;
-       System.out.println(LossPercentage);
+       double LossPercentage = (Loss * 100.0) / CP;
+       System.out.println(LossPercentage + "%");
         }
         else{
             System.out.println("No profit no loss");
         }
-        
+        sc.close();
 
         
     }
