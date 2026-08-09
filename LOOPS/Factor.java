@@ -11,10 +11,11 @@ public class Factor {
             if(n%i==0){
                 System.out.println(i);
             
-                System.out.println(n/2);
+            if (i != n / i) {
+                System.out.println(n/i);
             }
         }
-
+    }
     }
     
 }
