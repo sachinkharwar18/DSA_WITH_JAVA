@@ -11,7 +11,7 @@ public class Factor {
             if(n%i==0){
                 System.out.println(i);
             
-                System.out.println(i/2);
+                System.out.println(n/2);
             }
         }
 
