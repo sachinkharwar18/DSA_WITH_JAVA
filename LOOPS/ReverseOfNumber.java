@@ -12,7 +12,7 @@ public class ReverseOfNumber {
         int r = 0;
         while(n !=0){
            
-            n *= 10;
+            r *= 10;
             r += (n%10);
             n/=10;
 
