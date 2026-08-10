@@ -7,6 +7,8 @@ public class SumOfDigit {
         System.out.println("Enter the number");
         int n = sc.nextInt();
           
+         if(n<0) n= -n;
+
         int sum = 0;
         while(n !=0){
             sum += n%10;
