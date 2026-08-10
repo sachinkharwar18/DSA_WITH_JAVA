@@ -7,7 +7,17 @@ public class ReverseOfNumber {
         System.out.println("Enter the NUmber");
         int n = sc.nextInt();
 
-        
+         
+
+        int r = 0;
+        while(n !=0){
+           
+            n *= 10;
+            r += (n%10);
+            n/=10;
+
+        }
+        System.out.println(r);
     }
     
 }
