@@ -6,7 +6,7 @@ public class CountDigit {
 
         System.out.println("Enter the number");
         int n = sc.nextInt();
-
+         if(n==0) n = 5;
         int count=0;
         while(n!=0){
             n/=10;
