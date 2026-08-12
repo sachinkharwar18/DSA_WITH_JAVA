@@ -7,9 +7,9 @@ public class StarSquare {
         System.out.println("Enter the number = ");
         int n = sc.nextInt();
         
-        for(int i=1; i<=(char)122; i++){
-            for(int j=1; j<=(char)122; j++){
-                System.out.print(("A");
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=n; j++){
+                System.out.print( "* ");
             }
             System.out.println();
         }
