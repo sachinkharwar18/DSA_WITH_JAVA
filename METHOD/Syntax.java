@@ -1,22 +1,23 @@
-package METHOD;
 public class Syntax {
+
     public static void main(String[] args) {
         sachin();
     }
-    public static void sachin(){
+
+    public static void sachin() {
         System.out.println("aakriti");
         ajit();
-
     }
-    public static void ajit(){
-        System.out.println("vaibhav");
+
+    public static void ajit() {
+        System.out.println("saloni");
         jai();
-
     }
-    public static void jai(){
+
+    public static void jai() {
         System.out.println("chandani");
-        sachin();
 
+        // yahan recursion ko stop kar diya
+        // sachin();
     }
-    
 }
