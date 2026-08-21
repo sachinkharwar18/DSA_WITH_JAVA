@@ -6,12 +6,12 @@ public class Swap {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(a+ " " +b);
+        System.out.println(a+  b);
 
         int temp = a;
         a = b;
         b = temp;
-        System.out.println(a+ " " +b);
+        System.out.println(a+  b);
     }
     
 }
